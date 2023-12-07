@@ -47,6 +47,7 @@ fetch("https://striveschool-api.herokuapp.com/books")
       deleteButton.addEventListener("click", function () {
         cardColumn.remove();
       });
+
       /* ----------------------  creazione elementi per carrello------------------------------------ */
       let cartReference = document.getElementById("cart");
       let newLi = document.createElement("li");
